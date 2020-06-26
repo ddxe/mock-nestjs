@@ -22,7 +22,7 @@ module.exports = {
 };
 ```
 
-Then install nestjs and run the server:
+Install nestjs and run the server:
 
 ```bash
 $ npm install
