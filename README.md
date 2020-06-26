@@ -2,8 +2,6 @@
 
 nestjs api with mock data for vue course https://www.youtube.com/watch?v=9xF89Q2052g&t=311s
 
-Based on https://github.com/yemiwebby/bookstore-nest. 
-
 Mock data is located in /src/videos/mocks
 
 ## Installation
