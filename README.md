@@ -1,0 +1,40 @@
+## Description
+
+nestjs api with mock data for vue course https://www.youtube.com/watch?v=9xF89Q2052g&t=311s
+
+Based on https://github.com/yemiwebby/bookstore-nest. 
+
+Mock data is located in /src/videos/mocks
+
+## Installation
+
+If the api request gets blocked by cors policy, add a new file named vue.config.js in the **vue project root folder** with the following contents:
+
+```
+module.exports = {
+  devServer: {
+    proxy: {
+      "/videos": {
+        target: "http://localhost:3000",
+        ws: true,
+        changeOrigin: true
+      }
+    }
+  }
+};
+```
+
+Then install nestjs and run the server:
+
+```bash
+$ npm install
+```
+
+## Running the app
+
+```bash
+# development
+$ npm run start
+
+
+
